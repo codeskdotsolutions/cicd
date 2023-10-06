@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_cicd_1696603195256-push-trigger-input-set
+  identifier: Build_cicd_1696603195256pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_cicd_1696603195256
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
